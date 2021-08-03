@@ -9,6 +9,7 @@ int main (void){
     printf("Calculator\n\n");
 
     scanf("%d", &a);
+    // skip previous new line
     scanf(" %c", &operator);
     scanf("%d", &b);
 
