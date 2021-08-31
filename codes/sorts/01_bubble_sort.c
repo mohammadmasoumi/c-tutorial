@@ -1,35 +1,41 @@
-//
-// Created by mastermind on 10.07.21.
-//
-
+// C program for implementation of Bubble sort
 #include <stdio.h>
-
-
-int main() {
-
-    int total_count, counter, counter1, swap_var;
-    int array[20];
-
-    printf("How many number you want to input?\n");
-    scanf("%d", &total_count);
-    printf("Please enter %d integers that has to be sorted\n", total_count);
-
-    for (counter = 0; counter < total_count; counter++)
-        scanf("%d", &array[counter]);
-
-    for (counter = 0; counter < total_count - 1; counter++) {
-        for (counter1 = 0; counter1 < total_count - counter - 1; counter1++) {
-            if (array[counter1] > array[counter1 + 1]) /* For decreasing order use < */
-            {
-                swap_var = array[counter1];
-                array[counter1] = array[counter1 + 1];
-                array[counter1 + 1] = swap_var;
-            }
-        }
-    }
-    printf("Below is the list of elements sorted in ascending order:\n");
-    for (counter = 0; counter < total_count; counter++)
-        printf("%d\n", array[counter]);
-
+  
+void swap(int *xp, int *yp)
+{
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+  
+// A function to implement bubble sort
+void bubbleSort(int arr[], int n)
+{
+   int i, j;
+   for (i = 0; i < n-1; i++)      
+  
+       // Last i elements are already in place   
+       for (j = 0; j < n-i-1; j++) 
+           if (arr[j] > arr[j+1])
+              swap(&arr[j], &arr[j+1]);
+}
+  
+/* Function to print an array */
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i=0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+  
+// Driver program to test above functions
+int main()
+{
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    bubbleSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
     return 0;
 }

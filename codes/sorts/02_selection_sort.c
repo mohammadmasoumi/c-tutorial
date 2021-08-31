@@ -1,33 +1,68 @@
-#include<stdio.h>
-#include<conio.h>
+// C program for implementation of selection sort
+#include <stdio.h>
+ 
+/*
+arr[] = 64 25 12 22 11
 
-int main() {
-    int total_count, counter1, counter2, minimum, temp_value;
-    int a[20];
+// Find the minimum element in arr[0...4]
+// and place it at beginning
+11 25 12 22 64
 
-    printf("\n Enter the Number of Elements: ");
-    scanf("%d", &total_count);
-    printf("\n Enter %d Elements: ", total_count);
-    for (counter1 = 0; counter1 < total_count; counter1++) {
-        scanf("%d", &a[counter1]);
-    }
-    for (counter1 = 0; counter1 < total_count - 1; counter1++) {
-        minimum = counter1;
-        for (counter2 = counter1 + 1; counter2 < total_count; counter2++) {
-            if (a[minimum] > a[counter2])
-                minimum = counter2;
-        }
-        if (minimum != counter1) {
-            temp_value = a[counter1];
-            a[counter1] = a[minimum];
-            a[minimum] = temp_value;
-        }
-    }
-    printf("\n The Sorted array in ascending order: ");
-    for (counter1 = 0; counter1 < total_count; counter1++) {
-        printf("%d ", a[counter1]);
-    }
-    getch();
+// Find the minimum element in arr[1...4]
+// and place it at beginning of arr[1...4]
+11 12 25 22 64
 
+// Find the minimum element in arr[2...4]
+// and place it at beginning of arr[2...4]
+11 12 22 25 64
+
+// Find the minimum element in arr[3...4]
+// and place it at beginning of arr[3...4]
+11 12 22 25 64 
+
+*/
+
+void swap(int *xp, int *yp)
+{
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+ 
+void selectionSort(int arr[], int n)
+{
+    int i, j, min_idx;
+ 
+    // One by one move boundary of unsorted subarray
+    for (i = 0; i < n-1; i++)
+    {
+        // Find the minimum element in unsorted array
+        min_idx = i;
+        for (j = i+1; j < n; j++)
+          if (arr[j] < arr[min_idx])
+            min_idx = j;
+ 
+        // Swap the found minimum element with the first element
+        swap(&arr[min_idx], &arr[i]);
+    }
+}
+ 
+/* Function to print an array */
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i=0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+ 
+// Driver program to test above functions
+int main()
+{
+    int arr[] = {64, 25, 12, 22, 11};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    selectionSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
     return 0;
 }
