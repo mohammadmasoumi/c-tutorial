@@ -10,7 +10,6 @@ to represent individual variables. A specific element in an array is accessed by
 */
 
 int main() {
-
     int myArray[10];
 
     // The address of array's elements.
