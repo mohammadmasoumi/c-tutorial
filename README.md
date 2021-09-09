@@ -1,10 +1,8 @@
 # C tutorial
 
-This project is an open source project which I made to share my experience in C programming language. 
+This project is an open source project which I made due to share my experience around C programming language. [website][1000] 
 
-https://mohammadmasoumi.github.io/c-tutorial/
-
-# Agenda
+## Agenda
 
 1. [Overview][1]
 2. [Environment Setup][2]
@@ -37,7 +35,9 @@ https://mohammadmasoumi.github.io/c-tutorial/
 29. [MemoryManagement][29]
 30. [Sorting][30]
 
+## Summer 1400-1401
 
+1. [10th session][110]
 
 
 [1]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/01_Overview
@@ -70,5 +70,24 @@ https://mohammadmasoumi.github.io/c-tutorial/
 [28]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
 [29]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/29_MemoryManagement
 [30]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/30_Sorting
-
-
+[110]: https://mohammadmasoumi.github.io/c-tutorial/
+<!-- [100]:  
+[100]:
+[100]: 
+[100]:
+[100]: 
+[100]:
+[100]: 
+[100]:
+[100]: 
+[100]:
+[100]:  
+[100]:
+[100]: 
+[100]:
+[100]: 
+[100]:
+[100]: 
+[100]:
+[100]:  -->
+[1000]: https://mohammadmasoumi.github.io/c-tutorial/
