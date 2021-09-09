@@ -21,7 +21,7 @@ https://mohammadmasoumi.github.io/c-tutorial/
 13. [Functions][13]
 14. [Loops][14]
 15. [Arrays][15]
-16. [Comming soon][16]
+16. [Pointers][16]
 17. [Comming soon][17]
 18. [Comming soon][18]
 19. [Comming soon][19]
@@ -34,7 +34,7 @@ https://mohammadmasoumi.github.io/c-tutorial/
 26. [Comming soon][26]
 27. [Comming soon][27]
 28. [Comming soon][28]
-29. [Comming soon][29]
+29. [MemoryManagement][29]
 30. [Sorting][30]
 
 
@@ -55,7 +55,7 @@ https://mohammadmasoumi.github.io/c-tutorial/
 [13]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/13_Functions
 [14]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/14_Loops
 [15]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/15_Arrays
-[16]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
+[16]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/16_Pointers
 [17]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
 [18]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
 [19]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
@@ -68,7 +68,7 @@ https://mohammadmasoumi.github.io/c-tutorial/
 [26]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
 [27]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
 [28]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
-[29]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
+[29]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/29_MemoryManagement
 [30]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/30_Sorting
 
 
