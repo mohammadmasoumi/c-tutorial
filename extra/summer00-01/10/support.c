@@ -1,0 +1,2 @@
+
+int externVariable = 10;

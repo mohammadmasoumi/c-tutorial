@@ -1,0 +1,13 @@
+https://www.hackerrank.com/
+https://www.codewars.com/
+https://stackoverflow.com/
+https://github.com/
+
+#clone with SSH key
+https://phoenixnap.com/kb/generate-ssh-key-windows-10
+public key -> settings/ssh keys/ 
+
+# ssh 
+git clone https://github.com/openresty/lua-nginx-module
+
+https://git-scm.com/docs/git-clone
