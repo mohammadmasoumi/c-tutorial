@@ -21,7 +21,7 @@ This project is an open source project which I made due to share my experience a
 15. [Arrays][15]
 16. [Pointers][16]
 17. [Comming soon][17]
-18. [Comming soon][18]
+18. [Structures][18]
 19. [Comming soon][19]
 20. [Comming soon][20]
 21. [Comming soon][21]
@@ -59,7 +59,7 @@ This project is an open source project which I made due to share my experience a
 [15]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/15_Arrays
 [16]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/16_Pointers
 [17]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
-[18]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
+[18]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial/18_Structures
 [19]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
 [20]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
 [21]: https://github.com/mohammadmasoumi/c-tutorial/tree/master/tutorial
