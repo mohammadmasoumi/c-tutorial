@@ -15,13 +15,21 @@ int main() {
 
     */
     int *p = NULL;
+
+    printf("[1]p: %p\n", p);
+    // Segmentation fault (core dumped)
+    // printf("[1]*p: %d", *p);
     
     allocate(&p);
-    printf("p point to: %d\n", *p);
-    *p = 42;
-    printf("%ls\n", p);
-    printf("value: %d\n", *p);
+
+    printf("[2]p: %p\n", p);
+    printf("[2]*p: %d\n", *p);
     
+    *p = 42;
+
+    printf("[3]p: %p\n", p);
+    printf("[3]*p: %d\n", *p);
+
     free(p);
 
     return 0;
