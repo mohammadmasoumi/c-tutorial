@@ -3,7 +3,6 @@
 const int WORD_COUNT = 5;
 const int MAX_WORD_LIST = 256;
 
-
 int main() {
     char myList[WORD_COUNT][MAX_WORD_LIST];
 
