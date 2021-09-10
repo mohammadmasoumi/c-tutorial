@@ -35,7 +35,6 @@ int main() {
     return 0;
 }
 
-
 void allocate(int **p2p) {
     int *pointer = (int *)malloc(sizeof(int));
     printf("*pointer: %d\n", *pointer);
