@@ -9,6 +9,15 @@ struct Book {
 };
 
 int main() {
+    /*
+    
+    A structure is a user defined data type in C/C++. A structure creates a data type that can be used to group items of possibly different types into a single type.
+
+    struct tag_or_structure_tag {
+        members or fields of structure
+    };
+
+    */
 
     struct Book Book1;
     struct Book Book2;
