@@ -30,6 +30,5 @@ int main() {
     printf("p2.x: %d, p2.y: %d\n", p2.x, p2.y);
     printf("p3.x: %d, p3.y: %d\n", p3.x, p3.y);
 
-
     return 0;
 }
