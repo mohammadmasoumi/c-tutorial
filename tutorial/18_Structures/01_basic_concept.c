@@ -19,6 +19,8 @@ int main() {
 
     */
 
+    // ‘struct’ keyword is used to create a structure. Following is an example.
+
     struct Book Book1;
     struct Book Book2;
 
