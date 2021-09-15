@@ -1,6 +1,6 @@
 # C tutorial
 
-This project is an open source project which I made due to share my experience around C programming language. [website][1000] 
+This project is an open-source project which I made due to sharing my experience around the C programming language. [website][1000] 
 
 ## Agenda
 
