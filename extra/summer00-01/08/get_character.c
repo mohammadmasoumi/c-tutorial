@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
     int score;
 
@@ -10,15 +11,15 @@ int main() {
     // '2'
     // 'a'
     score = getchar();
-    
+
     // score == 0 wrong
     if (score == '0')
         printf("Bingo\n");
 
-    // if (score == 'A') 
+    // if (score == 'A')
     //     printf("Bingo");
 
-    // implicit cast on print 
+    // implicit cast on print
     printf("%d", score);
 
     return 0;

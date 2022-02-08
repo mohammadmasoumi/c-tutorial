@@ -10,14 +10,16 @@
 
 */
 
-struct Book {
+struct Book
+{
     // namem, author, id -> members
     char name[20];
     char author[20];
     int id;
 };
 
-int main() {
+int main()
+{
 
     /*
     data-type: Book
@@ -34,6 +36,6 @@ int main() {
     printf("name: %s\n", book1.name);
     printf("author: %s\n", book1.author);
     printf("id: %d\n", book1.id);
-    
+
     return 0;
 }

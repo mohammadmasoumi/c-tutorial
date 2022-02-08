@@ -1,16 +1,17 @@
 #include <stdio.h>
 
-
-int main() {
+int main()
+{
     int score = 0;
-    int* nullPointer = NULL;
+    int *nullPointer = NULL;
 
-    // !(None - NULL - 0) => true 
+    // !(None - NULL - 0) => true
     /*
     nullPointer != NULL
     !NULL
     */
-    if (!nullPointer) {
+    if (!nullPointer)
+    {
         printf("There is null pointer.\n");
     }
 

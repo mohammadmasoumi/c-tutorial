@@ -43,16 +43,18 @@ fibo(n) = fibo(n-1) + fibo(n-2)
 int fibo(int a, char caller);
 // void extraFunc();
 
-int main() {
-    
+int main()
+{
+
     fibo(4, 'm');
-    
+
     // the rest of the code
-    
-    return 0;  
+
+    return 0;
 }
 
-int fibo(int a, char caller){
+int fibo(int a, char caller)
+{
     // extraFunc();
     // caller: a, b, m
     printf("Input is: %d | Caller: %c\n", a, caller);
@@ -60,7 +62,7 @@ int fibo(int a, char caller){
     if (a <= 1)
         return 1;
 
-    int result = fibo(a-1, 'a') + fibo(a-2, 'b'); 
+    int result = fibo(a - 1, 'a') + fibo(a - 2, 'b');
 
     // result
     printf("result is: %d\n", result);
@@ -71,5 +73,3 @@ int fibo(int a, char caller){
 // void extraFunc(){
 //     printf("Extra function");
 // }
-
-

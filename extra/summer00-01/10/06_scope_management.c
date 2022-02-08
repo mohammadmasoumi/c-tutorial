@@ -7,8 +7,9 @@ int a = 100;
 // function prototype
 void useless();
 
-int main() {
-    
+int main()
+{
+
     int a = 10;
     int b = 20;
     int c = 30;
@@ -16,12 +17,13 @@ int main() {
     // declaration is not allowed without braces.
     // if (a == 10)
     //    int a = 20;
-    
-    if (a == 10) {
+
+    if (a == 10)
+    {
         // block scope
         int c = 40;
         // printf("%d\n", c);
-        
+
         // printf("%d", d);
     }
 
@@ -33,7 +35,8 @@ int main() {
     return 0;
 }
 
-void useless() {
+void useless()
+{
     // {
     //     int a = 10;
     //     printf("%d", a);
@@ -49,17 +52,17 @@ void useless() {
     int a = 200;
     printf("[Address a in line 47]: %p\n", &a);
     printf("%d\n", a); // a from line 46
-    
-    if (a == 200) {
+
+    if (a == 200)
+    {
         a = 400; // from the line 46.
-        
+
         int a = 300;
         printf("[Address a in line 54]: %p\n", &a);
         printf("%d\n", a); // a from the line 52.
-        a = 500; // a from the line 52.
+        a = 500;           // a from the line 52.
     }
     a = 600; // a from line 46
 
     printf("%d\n", a);
-
 }

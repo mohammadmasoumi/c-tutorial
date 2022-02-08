@@ -1,7 +1,7 @@
 /*
 first search in the mingw, then in the local scope. (directory)
 */
-// #include <stdio.h> 
+// #include <stdio.h>
 
 /*
 first in the local scope. (directory), then search in the mingw.
@@ -9,7 +9,8 @@ first in the local scope. (directory), then search in the mingw.
 // #include "stdio.h"
 #include "stdio.h"
 
-int main() {
+int main()
+{
 
     printf();
 

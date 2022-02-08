@@ -7,11 +7,13 @@
 /*
 Out stupid printf
 */
-void scanf() {
+void scanf()
+{
     printf("Hello from the other side.\n");
 }
 
-void printf() {
+void printf()
+{
     printf("Hello to the students.\n");
     /*
     prioriry 

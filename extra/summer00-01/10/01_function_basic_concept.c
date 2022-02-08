@@ -8,7 +8,8 @@ int square(int a);
 // no input - no output
 void checkReturnType();
 
-int maxf(int a, int b, int c) {
+int maxf(int a, int b, int c)
+{
     int max = a;
 
     if (b > max)
@@ -44,7 +45,8 @@ Call by value
  - prevent future errors. (side effect)
 
 */
-int main() {
+int main()
+{
     /*
     method's usage
     
@@ -58,7 +60,7 @@ int main() {
     int b;
     // &a - get the address of value a
 
-    // invoke or call  
+    // invoke or call
     printf("address: %p\n", &a);
     // printf("[before] a: %d\n", a);
     printf("square: %d\n", square(a));
@@ -77,15 +79,16 @@ int main() {
     return 0;
 }
 
-int square(int a) {
+int square(int a)
+{
     printf("[function] address: %p\n", &a);
     return a * a;
 }
 
-void checkReturnType() {
+void checkReturnType()
+{
     printf("Hello");
-    
-    return ;
+
+    return;
     // return 10; runtime error
 }
-

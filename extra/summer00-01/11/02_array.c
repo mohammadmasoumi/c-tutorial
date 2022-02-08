@@ -28,7 +28,8 @@ array1[99]
 array1[0] = 100
 */
 
-int main() {
+int main()
+{
     // index: 0 - 9
     int array1[10];
     int array2[] = {1, 2, 3, 4, 5};
@@ -49,7 +50,7 @@ int main() {
 
     // assigning-2
     // for(int i=0; i<10; i++) {
-    //     // 
+    //     //
     //     array1[i] = i + 1;
     // }
     /*
@@ -69,10 +70,11 @@ int main() {
     // array2[5] = 6;
     // printf("sizeof(array2): %d bytes\n", sizeof(array2));
     // printf("sizeof(array2[0]): %d bytes\n", sizeof(array2[0]));
-    // printf("array2 length %d/%d: %d\n",sizeof(array2), sizeof(array2[0]), sizeof(array2)/ sizeof(array2[0]));    
+    // printf("array2 length %d/%d: %d\n",sizeof(array2), sizeof(array2[0]), sizeof(array2)/ sizeof(array2[0]));
 
-    int lenArray4 = sizeof(array4)/sizeof(array4[0]);
-    for (int i=0; i<lenArray4; ++i) {
+    int lenArray4 = sizeof(array4) / sizeof(array4[0]);
+    for (int i = 0; i < lenArray4; ++i)
+    {
         printf("element at index %d: %d\n", i, array4[i]);
     }
 

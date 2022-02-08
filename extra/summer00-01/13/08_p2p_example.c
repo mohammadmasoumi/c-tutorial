@@ -3,7 +3,8 @@
 
 void allocate(int **p2p);
 
-int main() {
+int main()
+{
     int *p = NULL;
 
     // printf("p: %d\n", *p);
@@ -20,6 +21,7 @@ int main() {
     return 0;
 }
 
-void allocate(int **p2p) {
-    *p2p = (int*) malloc(sizeof(int));
+void allocate(int **p2p)
+{
+    *p2p = (int *)malloc(sizeof(int));
 }

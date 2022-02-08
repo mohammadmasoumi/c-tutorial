@@ -34,8 +34,9 @@ arr2D[colomn][row]
 // constant
 // convention
 const int MAX = 5;
-  
-int main() {
+
+int main()
+{
 
     // braces
     float arr2D[MAX][MAX] = {
@@ -43,8 +44,7 @@ int main() {
         {1.0, 1.1, 1.2, 1.3, 1.4},
         {2.0, 2.1, 2.2, 2.3, 2.4},
         {3.0, 3.1, 3.2, 3.3, 3.4},
-        {4.0, 4.1, 4.2, 4.3, 4.4}
-        };
+        {4.0, 4.1, 4.2, 4.3, 4.4}};
     /* 
         i = 0 arr2D[0][0], arr2D[0][1], ... , arr2D[0][4]
         i = 1 arr2D[1][0], arr2D[1][1], ... , arr2D[1][4]
@@ -52,12 +52,14 @@ int main() {
         arr2D[4][0], arr2D[4][1], ... , arr2D[4][4]
     */
     // nested for-loop: 5 * 5
-    for (int i = 0; i < MAX; i++){ // i = 1
-        for (int j = 0; j < MAX; j++) { // j = 0
+    for (int i = 0; i < MAX; i++)
+    { // i = 1
+        for (int j = 0; j < MAX; j++)
+        {                                                        // j = 0
             printf("arr[%d][%d]: [%1.1f]\t", i, j, arr2D[i][j]); // i = 0, j = 4
         }
         printf("\n");
-    }   
+    }
 
     // scanf("%d", &arr[i])
 

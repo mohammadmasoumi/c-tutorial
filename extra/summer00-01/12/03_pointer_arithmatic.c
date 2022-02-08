@@ -3,7 +3,8 @@
 
 const int MAX = 5;
 
-int main() {
+int main()
+{
 
     /*
     ++
@@ -20,12 +21,12 @@ int main() {
     // {
     //     /* code */
     // }
-    
+
     // reserve 20 bytes in memory
     // (int *) cast void pointer to int pointer
     // NULL
-    int* aPointer = (int *) malloc(MAX * sizeof(int));
-    
+    int *aPointer = (int *)malloc(MAX * sizeof(int));
+
     // Wrong - you should cast it.
     // int* aImpicitPointer = malloc(MAX * sizeof(int));
 
@@ -55,7 +56,8 @@ int main() {
     */
     // scanf("%d", aPointer);
 
-    for (int i = 0; i < MAX; i++) {
+    for (int i = 0; i < MAX; i++)
+    {
         scanf("%d", aPointer + i);
         printf("aPointer[%d]: %d\n", i, *(aPointer + i));
     }
@@ -77,7 +79,8 @@ int main() {
     realloc(aPointer, MAX * sizeof(int));
 
     printf("aPointer: %p\n", aPointer);
-    for (int i = 0; i < MAX; i++) {
+    for (int i = 0; i < MAX; i++)
+    {
         printf("aPointer[%d]: %d\n", i, *(aPointer + i));
     }
 

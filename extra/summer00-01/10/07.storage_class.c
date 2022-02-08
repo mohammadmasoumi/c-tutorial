@@ -14,7 +14,8 @@ storage classes in C:
 void autoScope();
 void staticScope();
 
-int main() {
+int main()
+{
     // g++ .\07.storage_class.c .\support.c
     extern int externVariable;
     printf("%d\n", externVariable);
@@ -26,7 +27,8 @@ int main() {
     return 0;
 }
 
-void autoScope() {
+void autoScope()
+{
     // allocation memory
     int autoVariable;
     // initialize variable
@@ -36,18 +38,19 @@ void autoScope() {
     // free space
 }
 
-void staticScope() {
+void staticScope()
+{
     static int staticVariable = 10;
     staticVariable = 20;
     printf("%d\n", staticVariable);
-    printf("address: %p\n", &staticVariable);   
+    printf("address: %p\n", &staticVariable);
 }
 
-void registerScope() {
+void registerScope()
+{
     // it does not gurantee to save on register.
     register int registerVariable = 10;
     registerVariable = 20;
     printf("%d\n", registerVariable);
     printf("address: %p\n", &registerVariable);
-    
 }

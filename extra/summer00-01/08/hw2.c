@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
     int i = 1, j = 1;
 
-    // i++ -> i += 1 
+    // i++ -> i += 1
 
     /*
     [1]: check condition j = 1
@@ -45,7 +46,7 @@ int main() {
     [11]: check condition j = 0
     [12]: end of program   
     */
-    for (;j; printf("%d%d\t",i,j))
+    for (; j; printf("%d%d\t", i, j))
         j = i++ <= 4;
 
     return 0;

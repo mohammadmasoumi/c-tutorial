@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-
-int main(){
+int main()
+{
 
     int a, b;
 
-    // if (1 & 126) 
+    // if (1 & 126)
     //     a = 1
     // else
     //     a = 2
@@ -34,7 +34,7 @@ int main(){
     1, 1 -> 1
     */
 
-   /*
+    /*
     0 -> false
     1 -> true
    */
