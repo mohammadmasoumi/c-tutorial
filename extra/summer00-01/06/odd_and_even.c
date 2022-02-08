@@ -1,9 +1,9 @@
 #include <stdio.h>
 
+int main(void)
+{
 
-int main(void) {
-
-    // odd or even 
+    // odd or even
     int a;
 
     // decimal - conversion specifier
@@ -19,14 +19,13 @@ int main(void) {
     >
     <
     two variable
-    */ 
+    */
     // [wrong] if (a > b > c)
     // [right] if (a > b && b > c)
 
-
-    if (a % 2 == 0) 
+    if (a % 2 == 0)
         printf("Even\n");
-    else 
+    else
         printf("Odd\n");
 
     return 0;

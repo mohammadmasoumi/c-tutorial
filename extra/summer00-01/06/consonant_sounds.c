@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-
-int main() {
+int main()
+{
 
     /*
     vowels:
@@ -10,7 +10,7 @@ int main() {
     rest of ...
     */
 
-   /*
+    /*
     [variable]
         name: character
         value: null
@@ -32,15 +32,15 @@ int main() {
     // case /* constant-expression */:
     //     /* code */
     //     break;
-    
+
     // default:
     //     break;
     // }
 
-    // | or 
+    // | or
     // & and
 
-    // || or 
+    // || or
     // && and
 
     /*
@@ -49,16 +49,16 @@ int main() {
 
     */
 
-   /*
+    /*
     single statement -> no braces - 1 line
     compound statment  -> braces
 
    */
 
     // 7 control statement
-    // 1. sequential statement -> goto 
+    // 1. sequential statement -> goto
     // 2. selection statement -> if , if else , switch
-    // 3. repeition stetement -> while, do while, for 
+    // 3. repeition stetement -> while, do while, for
 
     // if (character == 'a' || character == 'i' || character == 'e' || character == 'o' || character == 'u')
     //     printf("Vowels\n");
@@ -71,27 +71,27 @@ int main() {
     // case 'A':
     //     printf("Vowels %c\n", character);
     //     break;
-    
+
     // case 'i': // single qoute
-    // case 'I':    
+    // case 'I':
     //     printf("Vowels\n");
     //     break;
-    
+
     // case 'e': // single qoute
     // case 'E':
     //     printf("Vowels\n");
     //     break;
-    
+
     // case 'u': // single qoute
-    // case 'U':    
+    // case 'U':
     //     printf("Vowels\n");
     //     break;
-    
+
     // case 'o': // single qoute
     // case 'O':
     //     printf("Vowels\n");
     //     break;
-    
+
     // default:
     //     printf("Consonants\n");
     //     break;
@@ -108,11 +108,11 @@ int main() {
     case 'a': // single qoute
     case 'A':
     case 'i': // single qoute
-    case 'I':    
+    case 'I':
     case 'e': // single qoute
     case 'E':
     case 'u': // single qoute
-    case 'U':    
+    case 'U':
     case 'o': // single qoute
     case 'O':
         printf("Vowels\n");
@@ -122,7 +122,6 @@ int main() {
         printf("Consonants\n");
         break;
     }
-
 
     return 0;
 }

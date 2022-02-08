@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-
-int main() {
+int main()
+{
 
     /*
     program:
@@ -20,9 +20,9 @@ int main() {
     */
     int a;
     scanf("%d", &a);
-    
+
     // check range
-    // || or 
+    // || or
     // && and
 
     /*
@@ -30,9 +30,9 @@ int main() {
     corner case 
     */
 
-    // || or logical 
+    // || or logical
     // | bitwise
-    // ... - 0 ****************** - 20 ... 
+    // ... - 0 ****************** - 20 ...
     // if (a < 0 || a > 20)
 
     // || or
@@ -60,29 +60,27 @@ int main() {
     // else
     //     printf("False");
 
+    // if a is less than zero or is greater than 20
 
-   // if a is less than zero or is greater than 20
-
-
-    // if (a < 0 || a > 20) 
+    // if (a < 0 || a > 20)
     //     printf("Input is out of range, please try again later.\n");
-    // else {        
+    // else {
     //     if (a == 20)
     //         printf("A\n");
-    //     else if(a == 19) 
+    //     else if(a == 19)
     //         printf("B\n");
-    //     else if(a == 18)  
+    //     else if(a == 18)
     //         printf("C\n");
-    //     else 
-    //         printf("Failled\n"); 
-    // } 
+    //     else
+    //         printf("Failled\n");
+    // }
 
-    if (a < 0 || a > 20) 
+    if (a < 0 || a > 20)
         printf("Input is out of range, please try again later.\n");
-    else 
+    else
         switch (a)
         {
-        case 20: 
+        case 20:
             printf("A\n");
             break;
 
@@ -90,7 +88,7 @@ int main() {
             printf("B\n");
             break;
 
-        case 18:    
+        case 18:
             printf("C\n");
             break;
 

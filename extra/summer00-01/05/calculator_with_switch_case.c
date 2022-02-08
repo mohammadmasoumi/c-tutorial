@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-
-int main(){
+int main()
+{
 
     /*
     [1]: get 3 inputs from user
@@ -10,23 +10,22 @@ int main(){
     [3]: do the operation
     [4]: print result
     */
-   // two inputs int
-   int a, b;
+    // two inputs int
+    int a, b;
     // operator
-   char opt;
+    char opt;
 
-    // final result 
+    // final result
     int result;
 
     // flag variable
     int isInvalid = 0;
 
-
     // inputs
     printf("Please enter first number: \n");
     scanf("%d", &a);
 
-    // converstion specifier 
+    // converstion specifier
     // %d -> decimal integer
     // %c -> char
     // %s -> string
@@ -46,32 +45,33 @@ int main(){
     // }
 
     // if () {
-        // code - action - flow chart
+    // code - action - flow chart
     // }
     // else {
-        // code - action - flow chart
+    // code - action - flow chart
     // }
 
     // what to do?
-    // integral data type: int , char 
-    switch (opt) {
-        // if (opt == '+')
-        case '+':
-            result = a + b;
-            // statement 
-            break;
-        case '-':
-            result = a - b;
-            break;
-        case '*':
-            result = a * b;
-            break;
-        case '/':
-            result = a / b;
-            break;
-        default:
-            isInvalid = 1;
-            printf("Invalid operator\n");
+    // integral data type: int , char
+    switch (opt)
+    {
+    // if (opt == '+')
+    case '+':
+        result = a + b;
+        // statement
+        break;
+    case '-':
+        result = a - b;
+        break;
+    case '*':
+        result = a * b;
+        break;
+    case '/':
+        result = a / b;
+        break;
+    default:
+        isInvalid = 1;
+        printf("Invalid operator\n");
     }
 
     // finally
@@ -79,7 +79,8 @@ int main(){
     // debugging
     // printf("isInvalid- %d", isInvalid);
 
-    if (isInvalid == 0) {
+    if (isInvalid == 0)
+    {
         printf("result: %d\n", result);
     }
 

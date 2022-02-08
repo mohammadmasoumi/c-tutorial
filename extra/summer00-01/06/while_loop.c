@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main() {
-    
-    // counter-controlled 
+int main()
+{
+
+    // counter-controlled
     int scoreCount;
     int counter = 0;
     int total = 0;
@@ -26,23 +27,24 @@ int main() {
 
     */
 
-    // counter = 0 
+    // counter = 0
     // scoreCount = 10
 
     // next
-    // counter = 1 
+    // counter = 1
     // scoreCount = 10
 
     // 0 - 9
-    while(counter < scoreCount) {
+    while (counter < scoreCount)
+    {
         // int total = 0; - reset total - wrong!
-        
+
         printf("Enter your score: \n");
         scanf("%d", &score);
         total += score;
 
         printf("total: %d  - score: %d\n", total, score);
-        
+
         counter += 1;
     }
 

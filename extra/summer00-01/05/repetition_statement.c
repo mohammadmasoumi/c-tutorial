@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-
-int main() {
+int main()
+{
 
     // if (opt == '*')
-    //     c = a + b 
+    //     c = a + b
 
     // else if (opt == '-')
 
@@ -24,13 +24,12 @@ int main() {
     // if (){
 
     // } else if () {
-        
+
     // }
 
     // if () {
 
     // } else {
-    
-    // }
 
+    // }
 }

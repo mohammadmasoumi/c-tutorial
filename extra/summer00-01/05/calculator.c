@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-
-int main(){
-
+int main()
+{
 
     /*
     [1]: get 3 inputs from user
@@ -10,19 +9,19 @@ int main(){
     [3]: do the operation
     [4]: print result
     */
-   // two inputs int
-   int a, b;
+    // two inputs int
+    int a, b;
     // operator
-   char opt;
+    char opt;
 
-    // final result 
+    // final result
     int result;
 
     // inputs
     printf("Please enter first number: \n");
     scanf("%d", &a);
 
-    // converstion specifier 
+    // converstion specifier
     // %d -> decimal integer
     // %c -> char
     // %s -> string
@@ -42,8 +41,8 @@ int main(){
     // }
 
     // what to do?
-    if (opt == '+') 
-        // if operator == + 
+    if (opt == '+')
+        // if operator == +
         // sum a + b
         result = a + b; // 1 statemnet
     else if (opt == '-')
