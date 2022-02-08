@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-
-int main() {
+int main()
+{
 
     int a = 2;
     int b = 2;
@@ -24,9 +24,8 @@ int main() {
 
     if (a ^ b)
         printf("What happened?");
-    else 
+    else
         printf("No");
-    
 
     return 0;
 }

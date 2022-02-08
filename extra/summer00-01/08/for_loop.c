@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main()
+{
 
     /*
     control statment
@@ -10,22 +11,21 @@ int main() {
         - selection statement: if, if else, switch
         - repetition statement: while, do while, for
     */
-    
+
     // control variable name
     // initial value
-    
+
     // [1] define control variable outside of for
     // int counter;
     // for (counter = 0; counter <= 10; counter++){
     //     printf("%d", counter);
     // }
 
-    // [2] - variable control is optional 
-    // int counter = 0; 
+    // [2] - variable control is optional
+    // int counter = 0;
     // for (; counter <= 10; counter++){
     //     printf("%d", counter);
     // }
-
 
     /*
     [1]: expression1 - initial control variable
@@ -36,9 +36,9 @@ int main() {
     */
 
     // for (expression1; expression2; expression3) {
-        // block
+    // block
     // }
-    
+
     // off-by-one error
     // for (int counter = 0; counter <= 10; counter++){
     //     // block
@@ -50,7 +50,7 @@ int main() {
 
     //     %20d -> 20 characters before
     //     %-20d -> 20 characters before
-    //     */      
+    //     */
     //     printf("%20.2f\n", (float) counter);
     // }
 
@@ -58,23 +58,21 @@ int main() {
     //     printf("%-100.0lf\n", 10 * pow(10, counter));
     // }
 
-
     // [3] - no condition - infinite loop
-    // 
+    //
     // for (int counter = 0; ; counter++) {
-    //     if (counter <= 10) 
+    //     if (counter <= 10)
     //         break;
     //     printf("%d", counter);
     // }
 
     // [4] - no condition - infinite loop
-    // 
+    //
     // for (int counter = 0; counter <= 10; ){
     //     printf("%d", counter);
     //     counter += 1;
     // }
 
-    
     // for (int counter=1; counter <= 10; ++counter) {
     //     sum += counter;
     // }
@@ -90,9 +88,9 @@ int main() {
     // for (int counter=0, sum = 0 ; counter < 10; sum += counter + 1 ,++counter);
 
     // for (int counter=1; counter <= 10; counter++) {
-        // block
+    // block
     // }
-    
+
     /*
     sxpression2 - check condition
     block
@@ -103,30 +101,27 @@ int main() {
         counter = counter + 1
     */
 
-//    for (expression1; expression2; expression3) {
-//        // block
-//    }
+    //    for (expression1; expression2; expression3) {
+    //        // block
+    //    }
 
-//    expression1
-//    while (expression2) {
-//        // block
-//        expression3
-//    }
+    //    expression1
+    //    while (expression2) {
+    //        // block
+    //        expression3
+    //    }
 
     // exception
 
-    // break 
+    // break
     // continue
-    
-    // int flag = 1;
 
+    // int flag = 1;
 
     // for (int a =0; a< 10, a++){
     //     if (flag)
 
-
     // }
-
 
     /*
     for-loop
@@ -155,13 +150,14 @@ int main() {
     //     printf("%d\n", counter);
     //     if (counter == 5)
     //         continue;
-        
+
     //     ++counter;
     // }
 
-    for (int counter=100; counter>=0; --counter){
+    for (int counter = 100; counter >= 0; --counter)
+    {
         printf("%d\n", counter);
     }
-    
+
     return 0;
 }

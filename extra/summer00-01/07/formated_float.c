@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main()
+{
 
     float a = 3.65;
 
@@ -18,13 +19,13 @@ int main() {
     */
 
     // printf("a: %d\n", a); wrong
-    printf("a: %.1f\n", ceil(a)); // 4.0
+    printf("a: %.1f\n", ceil(a));  // 4.0
     printf("a: %.1f\n", floor(a)); // 3.0
 
     // -------------------------------------------------
-    printf("a: %d\n", (int) a); // 3
-    printf("a: %.1f\n", a); // 3.7
-    printf("a: %.2f\n", a); // 3.65
+    printf("a: %d\n", (int)a); // 3
+    printf("a: %.1f\n", a);    // 3.7
+    printf("a: %.2f\n", a);    // 3.65
 
     return 0;
 }

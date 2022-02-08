@@ -1,21 +1,20 @@
 #include <stdio.h>
 
-
-int main() {
-
+int main()
+{
 
     /*
     avg 1 to 100
 
     */
 
-   int counter = 1;
-   int count;
-   scanf("%d", &count);
+    int counter = 1;
+    int count;
+    scanf("%d", &count);
 
-   // 1 - 200 
-   // sum
-   // sum / count
+    // 1 - 200
+    // sum
+    // sum / count
 
     /*
     counter-controlled
@@ -32,20 +31,21 @@ int main() {
     } 
     */
 
-   int total = 0;
+    int total = 0;
 
-   while(counter <= count) {
-       // printf("counter is: %d\n", counter);
-       // unary  - 1 operand - 1 operator
-       // binary - 2 operands - 1 operator
-       // pre-increment -> ++counter
-       // post-increment -> counter++
-       // --counter pre-decrement
-       // counter-- post-decrement
-       // counter += 1 is equavalent  ++counter
+    while (counter <= count)
+    {
+        // printf("counter is: %d\n", counter);
+        // unary  - 1 operand - 1 operator
+        // binary - 2 operands - 1 operator
+        // pre-increment -> ++counter
+        // post-increment -> counter++
+        // --counter pre-decrement
+        // counter-- post-decrement
+        // counter += 1 is equavalent  ++counter
         total += counter;
         ++counter;
-   }
+    }
     /*
     int / int = int
     7 / 2 = 3
@@ -58,7 +58,7 @@ int main() {
     
     float / int -> float / float (iimplicit convert)
 
-    */   
+    */
 
     /*
     (float) total / count
@@ -73,9 +73,8 @@ int main() {
 
     float / float
     */
-   
-    printf("avg: %.2f", (float) total / count);
 
+    printf("avg: %.2f", (float)total / count);
 
     return 0;
 }
