@@ -1,0 +1,10 @@
+
+## commands
+
+dir                                 # show files in current directory
+cd file_name                        # change directory to file_name
+cd ..                               # move back into previous directory
+gcc file_name.c                     # compile c program and create a.exe
+gcc file_name.c -o file_name.exe    # complie c program and create file_name.exe
+a.exe                               # run compiled a.exe
+file_name.exe                       # run compiled file_name.exe
